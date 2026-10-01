@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: greeting-agent-63106
+  version: 1.0.0
+  description: An AI agent that greets users when they interact with it
+
+assets:
+  - ref: ./assets/greeting-agent/asset.yaml
